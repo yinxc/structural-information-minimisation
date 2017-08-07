@@ -1,19 +1,19 @@
 # structural-information-minimisation and modularity-maximisation
-greedy algorithm for two dimensional structural information minimisation and modularity maximisation
+greedy algorithm forstructural information minimisation and modularity maximisation
 example
-java -jar structureinfo.jar inputgraph outputfile
+java -jar structureinfo.jar xxx/xxx/xxx/graph
 
-inputgraph is the input of this algorithm. The format is
+graph is the input of this algorithm. The format is
 3
-1 2 1
-1 3 2
-2 3 3
+1 2 1.0
+1 3 2.0
+2 3 3.0
 The first line is the number of nodes of the graph
 The second line is the edge: first_node_id second_node_id weight, splitted by space. The node_id start from 1.
 
-outputfile is the result of communities found by this algorithm. Each line is a community
+resultfile (graph.Ecommunity or graph.Mcommunity or graph.Qcommunity) is the result of communities found by algorithm E, M or Q. Each line is a community.
 
-the same to modularity maximisation algorithm
-java -jar modularity.jar inputgraph outputfile
+The same to modularity maximisation algorithm
+java -jar modularity.jar xxx/xxx/xxx/graph
 
 first of all, you need to change the name of file structureinfo.jar.txt and modularity.jar.txt to structureinfo.jar and modularity.jar.
