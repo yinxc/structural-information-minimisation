@@ -1,5 +1,5 @@
 # structural-information-minimisation and modularity-maximisation
-greedy algorithm forstructural information minimisation and modularity maximisation
+greedy algorithm for structure information minimisation and modularity maximisation
 example
 java -jar structureinfo.jar xxx/xxx/xxx/graph
 
