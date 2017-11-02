@@ -1,4 +1,4 @@
-# structural-information-minimisation and modularity-maximisation
+# structural-entropy-minimisation and modularity-maximisation
 greedy algorithm for structure information minimisation and modularity maximisation
 example
 java -jar structureinfo.jar xxx/xxx/xxx/graph
@@ -9,7 +9,8 @@ graph is the input of this algorithm. The format is
 1 3 2.0
 2 3 3.0
 The first line is the number of nodes of the graph
-The second line is the edge: first_node_id second_node_id weight, splitted by space. The node_id start from 1.
+The second line is the edge: first_node_id second_node_id weight
+.splitted by space. The node_id start from 1.
 
 resultfile (graph.deDoc(E)community or graph.deDoc(M)community or graph.Qcommunity) is the result of communities found by algorithm deDoc(E), deDoc(M) or CNM. Each line is a community.
 
