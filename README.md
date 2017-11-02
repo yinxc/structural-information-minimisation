@@ -11,7 +11,7 @@ graph is the input of this algorithm. The format is
 The first line is the number of nodes of the graph
 The second line is the edge: first_node_id second_node_id weight, splitted by space. The node_id start from 1.
 
-resultfile (graph.Ecommunity or graph.Mcommunity or graph.Qcommunity) is the result of communities found by algorithm E, M or Q. Each line is a community.
+resultfile (graph.Ecommunity or graph.Mcommunity or graph.Qcommunity) is the result of communities found by algorithm Dedoc(E), Dedoc(M) or CNM. Each line is a community.
 
 The same to modularity maximisation algorithm
 java -jar modularity.jar xxx/xxx/xxx/graph
