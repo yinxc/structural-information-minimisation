@@ -12,9 +12,7 @@ The first line is the number of nodes of the graph
 The second line is the edge: first_node_id second_node_id weight
 .splitted by space. The node_id start from 1.
 
-resultfile (graph.deDoc(E)community or graph.deDoc(M)community or graph.Qcommunity) is the result of communities found by algorithm deDoc(E), deDoc(M) or CNM. Each line is a community.
+resultfile (graph.deDoc(E)community or graph.deDoc(M)community) is the result of communities found by algorithm deDoc(E) or deDoc(M). Each line is a community.
 
-The same to modularity maximisation algorithm
-java -jar modularity.jar xxx/xxx/xxx/graph
 
 first of all, you need to change the name of file structureinfo.jar.txt and modularity.jar.txt to structureinfo.jar and modularity.jar.
