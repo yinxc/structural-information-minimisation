@@ -3,7 +3,7 @@ Algorithm for structure entroy minimisation
 example
 java -jar structureEntropy.jar xxx/xxx/xxx/hicGraph
 
-hicGraph is the input of this algorithm. The format is
+We treat Hic matrix as the adjacent matrix of the hicGraph which is the input of this algorithm. The format is
 3
 1 2 1.0
 1 3 2.0
