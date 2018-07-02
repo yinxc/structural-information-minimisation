@@ -1,5 +1,5 @@
 # Structural-entropy-minimisation
-Algorithm for structure entroy minimisation 
+The java code of algorithm of structure entroy minimisation 
 example
 java -jar structureEntropy.jar xxx/xxx/xxx/hicGraph
 
