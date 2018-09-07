@@ -18,3 +18,5 @@ java -jar onednSE.jar xxx/xxx/xxx/hicGraph
 The result is the 1D-nSE of this hicGraph.
 
 To get the java source code, you just need to decompress structureEntropy.jar and onednSE.jar using software such as WinRAR.
+
+P.S. The input Hi-C matrix should be symmetric matrix
