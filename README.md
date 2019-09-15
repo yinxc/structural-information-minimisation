@@ -1,7 +1,7 @@
 # Structural-entropy-minimisation
 The java code of algorithm of structure entroy minimisation 
 example
-java -jar structureEntropy.jar xxx/xxx/xxx/hicGraph
+java -jar deDoc.jar xxx/xxx/xxx/hicGraph
 
 We treat Hic matrix as the adjacent matrix of the hicGraph which is the input of this algorithm. The format is
 3
@@ -17,6 +17,6 @@ To compute 1D-nSE, use command
 java -jar onednSE.jar xxx/xxx/xxx/hicGraph
 The result is the 1D-nSE of this hicGraph.
 
-To get the java source code, you just need to decompress structureEntropy.jar and onednSE.jar using software such as WinRAR.
+To get the java source code, you just need to decompress dedoc.jar and onednSE.jar using software such as WinRAR.
 
 P.S. The input Hi-C matrix should be symmetric matrix
