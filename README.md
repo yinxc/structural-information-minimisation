@@ -17,6 +17,6 @@ To compute 1D-nSE, use command
 java -jar onednSE.jar xxx/xxx/xxx/hicGraph
 The result is the 1D-nSE of this hicGraph.
 
-To get the java source code, you just need to decompress dedoc.jar and onednSE.jar using software such as WinRAR.
+To get the java source code, you just need to decompress deDoc.jar and onednSE.jar using software such as WinRAR.
 
 P.S. The input Hi-C matrix should be symmetric matrix
